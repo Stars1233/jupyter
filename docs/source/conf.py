@@ -89,6 +89,9 @@ html_context = {
 }
 
 html_theme_options = {
+    # This will be empty if banner.html is empty
+    # ref: https://github.com/jupyter/jupyter.github.io#site-wide-announcement-banner
+    "announcement": "https://jupyter.org/assets/banner.html",
     "icon_links": [
         {
             "name": "GitHub",
