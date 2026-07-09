@@ -89,6 +89,7 @@ html_context = {
 }
 
 html_theme_options = {
+    "announcement": "https://jupyter.org/assets/banner.html",
     "icon_links": [
         {
             "name": "GitHub",
